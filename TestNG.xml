@@ -1,0 +1,17 @@
+<suite name="parabank">
+<test name="Regression" allow-return-values="true">
+ <classes> 
+
+
+<class name="testCases.TransferFundsTest"/>
+
+ </classes> 
+</test>
+<test name="Smoke" allow-return-values="true">
+<classes>
+
+<class name="testCases.LoginPageTest"/> 
+<class name="testCases.LogoutTest"/>
+</classes>
+</test>
+</suite>
